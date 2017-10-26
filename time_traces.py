@@ -17,7 +17,6 @@ for i in natsorted(os.listdir(folder_path)):
     if i.endswith('xlsx'):
         file1 = os.path.join(folder_path, i)
         print 'working on ', file1
-
     else:
         pass
 results_folder = os.path.join(folder_path, 'results')
